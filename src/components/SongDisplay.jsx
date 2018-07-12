@@ -38,7 +38,6 @@ SongDisplay.propTypes = {
 };
 
 const mapStateToProps = state => {
-  const mapStateToProps = state => {
   let info;
   const song = state.songsById[state.currentSongId];
   if (!state.songsById[state.currentSongId].isFetching) {
